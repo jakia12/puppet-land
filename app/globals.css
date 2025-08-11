@@ -24,3 +24,51 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* custom font */
+
+@font-face {
+  font-family: "Anonymous regular";
+  src: url("/fonts/AnonymousPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anonymous bold";
+  src: url("/fonts/AnonymousPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("/fonts/AnonymousPro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("/fonts/AnonymousPro-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Pixelify Sans";
+  src: url("/fonts/PixelifySans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* variable font range */
+  font-style: normal;
+}
+
+.pixelify {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.anon-bold {
+  font-family: "Anonymous bold", monospace;
+}
+.anon-regular {
+  font-family: "Anonymous regular", monospace;
+}
