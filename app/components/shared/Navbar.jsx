@@ -28,7 +28,7 @@ export default function Navbar() {
           <ul className="hidden items-center gap-6 text-[16px] text-neutral-300 md:flex pixelify">
             <li>
               <a
-                href="#drops"
+                href="/"
                 className="inline-block rounded-md px-1 py-1 transition hover:text-white"
               >
                 drops
@@ -36,7 +36,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#puppets"
+                href="/"
                 onClick={(e) => {
                   e.preventDefault();
                   openPuppets();
@@ -48,7 +48,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#swap"
+                href="/"
                 className="inline-block rounded-md px-1 py-1 transition hover:text-white"
               >
                 swap
@@ -56,7 +56,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#documentation"
+                href="/"
                 className="inline-block rounded-md px-1 py-1 transition hover:text-white"
               >
                 documentation
@@ -117,21 +117,21 @@ export default function Navbar() {
         >
           <div className="space-y-2 px-4 py-3 pixelify">
             <a
-              href="#drops"
+              href="/"
               className="block rounded-md px-3 py-2 text-sm text-neutral-200 hover:bg-neutral-800"
               onClick={() => setOpen(false)}
             >
               drops
             </a>
             <a
-              href="#puppets"
+              href="/"
               className="block rounded-md px-3 py-2 text-sm text-neutral-200 hover:bg-neutral-800"
               onClick={() => setOpen(false)}
             >
               puppets
             </a>
             <a
-              href="#swap"
+              href="/"
               className="block rounded-md px-3 py-2 text-sm text-neutral-200 hover:bg-neutral-800"
               onClick={(e) => {
                 e.preventDefault();
@@ -142,7 +142,7 @@ export default function Navbar() {
               swap
             </a>
             <a
-              href="#documentation"
+              href="/"
               className="block rounded-md px-3 py-2 text-sm text-neutral-200 hover:bg-neutral-800"
               onClick={() => setOpen(false)}
             >
